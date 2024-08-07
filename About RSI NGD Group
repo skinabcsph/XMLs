@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Custom Meta Tags" />
+  <Content type="html">
+    <![CDATA[
+      <script>
+        document.title = "Your Custom Title";
+        var meta = document.createElement('meta');
+        meta.name = "description";
+        meta.content = "Your custom meta description.";
+        document.getElementsByTagName('head')[0].appendChild(meta);
+      </script>
+    ]]>
+  </Content>
+</Module>
